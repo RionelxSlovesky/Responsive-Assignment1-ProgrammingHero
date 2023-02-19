@@ -59,12 +59,15 @@ header {
 }
 
 /* main */
+
+/* failure */
 #failure {
     height: 100vh;
-    min-height: 500px;
+    min-height: 1000px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 30px;
 }
 
 #failure-img-container {
@@ -139,6 +142,26 @@ header {
     #intro-desc {
         font-size: 16px;
     }
+
+    /* main */
+
+    /* failure */
+
+    #failure {
+        flex-direction: column-reverse;
+        justify-content: center;
+        
+    }
+
+    #failure-img-container {
+        width: 100%;
+    }
+
+    #failure-content-container {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
 
     
 
