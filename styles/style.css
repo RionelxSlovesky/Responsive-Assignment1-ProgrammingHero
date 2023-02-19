@@ -51,20 +51,66 @@ header {
     width: 300px;
     text-align: right;
     margin-bottom: 20px;
-     color: rgb(99, 114, 129);
+    color: rgb(99, 114, 129);
 }
 
 #intro-btn {
     float: right;
 }
 
-/* body */
-main {
-
+/* main */
+#failure {
     height: 100vh;
     min-height: 500px;
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+#failure-img-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#failure-img {
+    height: 500px;
+    object-fit: contain;
+}
+
+#failure-content-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#failure-header {
+    font-size: 26px;
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+#failure-desc {
+    font-size: 16px;
+    width: 250px;
+    color: rgb(99, 114, 129);
+    line-height: 1.5rem;
+    margin-bottom: 15px;
+}
+
+#failure-list {
+    margin-left: 50px;
+    list-style: none;
+    list-style-position: inside;
+    font-size: 16px;
+    color: rgb(99, 114, 129);
+    line-height: 1.5rem;
+}
+
+
 
 
 
