@@ -63,7 +63,7 @@ header {
 /* failure */
 #failure {
     height: 100vh;
-    min-height: 1000px;
+    min-height: 500px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -90,7 +90,7 @@ header {
     justify-content: center;
 }
 
-#failure-header {
+#failure-header, #plans-header{
     font-size: 26px;
     width: 250px;
     margin-bottom: 15px;
@@ -113,7 +113,49 @@ header {
     line-height: 1.5rem;
 }
 
+/* plans */
+#plans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px;
 
+}
+
+#plans-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#plans-icon-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.plans-icon-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plans-icon {
+    margin-bottom: 20px;
+}
+
+.icon-header {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.icon-desc {
+    font-size: 18px;
+    text-align: center;
+    color: rgb(99, 114, 129);
+}
 
 
 
@@ -150,6 +192,7 @@ header {
     #failure {
         flex-direction: column-reverse;
         justify-content: center;
+        min-height: 1000px;
         
     }
 
@@ -160,6 +203,16 @@ header {
     #failure-content-container {
         width: 100%;
         margin-bottom: 30px;
+    }
+
+    /* plans */
+
+    #plans-icon-container {
+        flex-direction: column;
+    }
+
+    .icon-desc {
+        margin-bottom: 40px;
     }
 
 
