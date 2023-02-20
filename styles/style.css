@@ -22,15 +22,18 @@
 }
 
 .secondary-btn {
-
     font-size: 16px;
     background-color: white;
     height: 55px;
     width: 125px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 0px;
     color: rgb(190, 107, 6);
+}
 
+.secondary-btn:hover {
+    background-color: rgb(201, 200, 200);
+    cursor: pointer;
 }
 
 /* header */
@@ -180,6 +183,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 10px;
+    margin-bottom: 100px;
 }
 
 #banner-overlay {
@@ -202,7 +206,71 @@ header {
     margin-bottom: 15px;
 }
 
+/* footer */
+footer{
+    display: flex;
+    height: 50vh;
+    background-color: black;
+    min-height: 400px;
+    color: white;
+}
 
+#future-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 70%;
+    padding-left: 100px;
+}
+
+#future-header {
+    margin-bottom: 20px;
+}
+
+#future-desc {
+    width: 400px;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+    color: rgb(176, 179, 182);
+}
+
+.future-contact {
+    margin-bottom: 20px;
+    color: rgb(176, 179, 182);
+}
+
+#subscribe-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+    margin-right: 100px;
+}
+
+#subscribe-header {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.social-icon {
+    width: 30px;
+    margin-right: 10px;
+}
+
+#subscribe-inp {
+    margin-bottom: 20px;
+    height: 55px;
+    padding: 0 20px;
+    width: 100% - calc(20px);
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    
+}
 
 
 
