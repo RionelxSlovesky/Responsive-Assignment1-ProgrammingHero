@@ -12,13 +12,25 @@
     width: 100px;
     border-radius: 5px;
     border: 0px;
-     color: white;
+    color: white;
 
 }
 
 .primary-btn:hover {
     background-color: rgb(167, 94, 6);
     cursor: pointer;
+}
+
+.secondary-btn {
+
+    font-size: 16px;
+    background-color: white;
+    height: 55px;
+    width: 125px;
+    border-radius: 5px;
+    border: 0px;
+    color: rgb(190, 107, 6);
+
 }
 
 /* header */
@@ -35,7 +47,7 @@ header {
 }
 
 #intro-container {
-    margin-right: 50px;
+    margin-right: 100px;
 }
 
 #intro-header {
@@ -120,6 +132,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 30px 100px;
+    margin-bottom: 60px;
 
 }
 
@@ -156,6 +169,39 @@ header {
     text-align: center;
     color: rgb(99, 114, 129);
 }
+
+
+/* banner */
+#banner {
+    background-image: url(../images/watch.png);
+    margin: 0 100px;
+    width: auto;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#banner-overlay {
+    background-image: url('../images/gradient2.png');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#banner-content {
+    padding: 50px 50px;
+}
+
+#banner-header {
+    font-size: 36px;
+    width: 350px;
+    color: white;
+    margin-bottom: 15px;
+}
+
 
 
 
