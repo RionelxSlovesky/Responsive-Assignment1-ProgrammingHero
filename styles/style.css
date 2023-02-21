@@ -307,7 +307,7 @@ footer{
     #failure {
         flex-direction: column-reverse;
         justify-content: center;
-        min-height: 800px;
+        min-height: 900px;
         row-gap: 60px;
         
     }
