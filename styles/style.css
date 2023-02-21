@@ -285,6 +285,7 @@ footer{
     }
 
     #intro-container {
+        margin-right: 0px;
         padding: 20px 20px;
         background: rgb(190, 107, 6, 0.8);
         color: white;
@@ -328,6 +329,25 @@ footer{
     .icon-desc {
         margin-bottom: 40px;
     }
+
+    /* footer */
+    footer{
+        flex-direction: column;
+        min-height: 700px;
+        align-items: center;
+    }
+
+    #future-container {
+        text-align: center;
+        width: 400px;
+        padding-left: 0;
+    }
+
+    #subscribe-container {
+        width: 400px;
+        margin-right: 0;
+    }
+    
 
 
     
