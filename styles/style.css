@@ -307,7 +307,8 @@ footer{
     #failure {
         flex-direction: column-reverse;
         justify-content: center;
-        min-height: 1000px;
+        min-height: 800px;
+        row-gap: 60px;
         
     }
 
@@ -315,9 +316,12 @@ footer{
         width: 100%;
     }
 
+    #failure-img {
+        height: 350px;
+    }
+
     #failure-content-container {
         width: 100%;
-        margin-bottom: 30px;
     }
 
     /* plans */
